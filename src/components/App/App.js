@@ -6,16 +6,20 @@ import Movie from '../Movie/Movie';
 import NotFound from '../elements/NotFound/NotFound';
 
 const App = () => (
-  <BrowserRouter >
+  <BrowserRouter>
     <React.Fragment>
       <Header />
       <Switch>
-        <Route path="/" component={Home} exact />
-        <Route path="/:movieId" component={Movie} exact />
+        <Route path={`${process.env.PUBLIC_URL}/`} component={Home} exact />
+        <Route
+          path={`${process.env.PUBLIC_URL}/:movieId`}
+          component={Movie}
+          exact
+        />
         <Route component={NotFound} />
       </Switch>
     </React.Fragment>
   </BrowserRouter>
-)
+);
 
 export default App;

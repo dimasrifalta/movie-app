@@ -2,6 +2,7 @@
   "name": "react_movie_db_course",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dimasrifalta.github.io/movie-app/",
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
@@ -17,7 +18,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://dimasrifalta.github.io/react_movie_db_course",
   "devDependencies": {
     "gh-pages": "^2.2.0"
   }
