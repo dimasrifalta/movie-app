@@ -6,7 +6,7 @@ import Movie from '../Movie/Movie';
 import NotFound from '../elements/NotFound/NotFound';
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter >
     <React.Fragment>
       <Header />
       <Switch>
